@@ -1,0 +1,11 @@
+.work-content{
+    padding: 25px;
+}
+
+.work-item img{
+    width: 100%;
+}
+
+.work-item + img{
+    padding: 25px;
+}

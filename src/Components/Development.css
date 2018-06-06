@@ -1,0 +1,9 @@
+.dev-item.item{
+    background: white;
+    padding-bottom: 75px;
+}
+
+.dev-item button{
+    position: absolute;
+    right: 25px;
+}

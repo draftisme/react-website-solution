@@ -1,0 +1,51 @@
+.feature-item{
+    cursor: pointer;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.icon{
+    display: block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: #404040;
+    border-color: white;
+}
+
+.icon img{
+    position: absolute;
+    left: 44%;
+    top: 45px;
+    width: 40px;
+    height: 40px;
+}
+
+.black{
+    color: #404040;
+}
+
+.feature-item:hover{
+    background: white;
+    border-color: white;
+    position: relative;
+}
+
+.feature-item:hover button{
+    display: none;
+}
+
+.feature-item:hover:after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    border-top: 30px solid #478BD2;
+    border-top-color: inherit; 
+    border-right: 30px solid transparent; 
+}
+

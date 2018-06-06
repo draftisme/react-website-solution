@@ -1,0 +1,75 @@
+.main{
+    background: #EFEFEF;
+    min-height: 100%;
+}
+
+h4{
+    text-align: center;
+}
+
+h5{
+    text-transform: capitalize;
+    color: #404040; 
+}
+
+.item {
+    background: white;
+    position: relative;
+    border-color: white;
+}
+
+.item:after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    border-top: 30px solid white;
+    border-top-color: inherit; 
+    border-right: 30px solid transparent; 
+}
+
+
+.feature{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 75px 0;
+}
+
+.work{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3%;
+    padding-bottom: 75px;
+}
+
+.testi-dev {
+    display: grid;    
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 3%;
+}
+
+.testi-dev .testi-item, 
+.testi-dev .dev-item{
+    /* padding: 25px; */
+}
+
+.testi-dev .testi{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testi-dev h4{
+    flex-basis: 100%;
+}
+
+.testi-dev .testi-item{
+    padding: 25px;
+    flex-basis: 40%;
+    margin-bottom: 50px;
+}
+
+.testi-dev .dev-item{
+    padding: 25px;
+}

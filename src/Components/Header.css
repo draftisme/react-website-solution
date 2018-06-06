@@ -1,0 +1,22 @@
+div#header{
+    background: #404040;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img{
+    width: 100%;
+}
+
+.white{
+    color: white;
+    text-transform: italic;
+    font-style: italic;
+}
+
+button {
+    padding: 10px 25px;
+}
