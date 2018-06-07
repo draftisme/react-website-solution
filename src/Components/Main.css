@@ -73,3 +73,20 @@ h5{
 .testi-dev .dev-item{
     padding: 25px;
 }
+
+.testi-dev .dev .tab input{
+    display: none;
+}
+
+.testi-dev .dev .tab label{   
+    cursor: pointer;
+    color: black;
+    background: rgb(236, 234, 234);
+    padding: 20px 25px;
+    line-height: 50px;
+}
+
+.testi-dev .dev .tab input:checked + label{
+    background: white;
+    color: #404040;
+}
